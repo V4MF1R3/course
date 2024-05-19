@@ -1,0 +1,65 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  width: 966px;
+  margin: auto;
+  margin-top: 24px;
+  align-items: center;
+  background-color: #ffffff;
+  color: #000;
+}
+
+.navbar-brand a {
+  color: #000;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropbtn {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 108px;
+  background-color: #AF273E;
+  border: none;
+  color: white;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  justify-content: center;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown-content.show {
+  display: block;
+}
